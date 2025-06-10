@@ -2,7 +2,7 @@
 :root {
     --primary-color: dodgerblue;
     --secondary-color: aqua;
-    --background-dark: rgb(26, 23, 23);
+    --background-dark: rgb(0, 0, 0);
     --background-medium: rgb(33, 33, 33);
     --text-light: #ffffff;
     --text-medium: #cccccc;
