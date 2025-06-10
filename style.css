@@ -282,33 +282,22 @@ video {
 
 /* Style the navigation links container for mobile */
 .nav-links {
-    /* Mobile styles first */
     display: flex;
-    /* Use flex for alignment */
     flex-direction: column;
     align-items: center;
-    /* Center links vertically */
     position: absolute;
     top: 100%;
-    /* Position below the header */
     right: 0;
     background-color: var(--background-medium);
-    /* Or a slightly different shade */
     width: 80%;
-    /* Adjust width as needed */
     max-width: 300px;
-    /* Max width */
     min-height: calc(100vh - 70px);
-    /* Example height (adjust 70px based on your header height) */
     padding: 3rem 1rem;
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.2);
     transform: translateX(100%);
-    /* Start off-screen */
     transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-    /* Smooth transition */
     z-index: 99;
-    /* Below header but above content */
 }
 
 .nav-links li {
@@ -716,7 +705,7 @@ video {
 }
 
 .me-image {
-    border-radius: 50%;
+    border-radius: 10%;
     /* Circular image */
     border: 4px solid var(--primary-color);
     box-shadow: 0 0 20px rgba(0, 174, 255, 0.3);
